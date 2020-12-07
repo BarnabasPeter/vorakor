@@ -20,7 +20,7 @@ from website import views
 
 urlpatterns = [
     
-    path('^$', views.home, name="home"),
+    path('', views.home, name="home"),
     path('service/', views.service, name="service"),
     #path('admin/', admin.site.urls),
 ]

@@ -26,6 +26,7 @@
 </head>
 
 <body class="light-version">
+
     <!-- Preloader -->
     <div id="preloader">
         <div class="preload-content">
@@ -59,7 +60,7 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li><a href="^$">Home</a></li>
+                                <li><a href="{% url 'home' %}">Home</a></li>
                                 <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Blog Posts</a></li>
@@ -81,7 +82,7 @@
 
     <!-- ##### Welcome Area Start ##### -->
     <div class="breadcumb-area clearfix dzsparallaxer auto-init" data-options='{direction: "normal"}'>
-        <div class="divimage dzsparallaxer--target" style="width: 101%; height: 130%; background-image: url(img/bg-img/bg-2.jpg)"></div>
+        <div class="divimage dzsparallaxer--target" style="width: 101%; height: 130%; background-image: url('/static/website/img/bg-img/bg-2.jpg')"></div>
         <!-- breadcumb content -->
         <div class="breadcumb-content">
             <div class="container h-100">
@@ -123,7 +124,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.2s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s1.png" alt="">
+                                <img src="{% static 'website/img/icons/s1.png'%}" alt="">
                             </div>
                             <h6>Face Recognation</h6>
                             <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -134,7 +135,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.3s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s2.png" alt="">
+                                <img src=" {% static 'website/img/icons/s2.png'%}" alt="">
                             </div>
                             <h6>Artificial Intelligence</h6>
                             <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -145,7 +146,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.4s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s3.png" alt="">
+                                <img src="{% static 'website/img/icons/s3.png'%}" alt="">
                             </div>
                             <h6>Machine Learning</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -156,7 +157,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.2s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s4.png" alt="">
+                                <img src="{% static 'website/img/icons/s4.png'%}" alt="">
                             </div>
                             <h6>Robots Engineering</h6>
                             <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -167,7 +168,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.3s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s5.png" alt="">
+                                <img src="{% static 'website/img/icons/s5.png' %}" alt="">
                             </div>
                             <h6>Deep Learning</h6>
                             <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -178,7 +179,7 @@
                         <div class="service_single_content text-center mb-100 fadeInUp" data-wow-delay="0.4s">
                             <!-- Icon -->
                             <div class="service_icon">
-                                <img src="img/icons/s6.png" alt="">
+                                <img src="{% static 'website/img/icons/s6.png'%}" alt="">
                             </div>
                             <h6>AI Data Analysis</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
@@ -211,12 +212,12 @@
                                     <span class="title text-center">Other AI platforms</span>
                                 </div>
                                 <div class="img-wrap text-center">
-                                    <img src="img/core-img/without.png" class="center-block mb-30" alt="">
+                                    <img src="{% static 'website/img/core-img/without.png'%}" class="center-block mb-30" alt="">
                                 </div>
                                 <ul class="unfeat-list list-unstyled">
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/unfeat02.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/unfeat02.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">High costs</span>
@@ -225,7 +226,7 @@
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/unfeat01.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/unfeat01.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">High commissions</span>
@@ -235,7 +236,7 @@
                                     
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/unfeat03.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/unfeat03.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Tough entry</span>
@@ -244,7 +245,7 @@
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/unfeat04.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/unfeat04.png' %}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Unstable operation</span>
@@ -260,12 +261,12 @@
                                     <span class="title">Our AI platform</span>
                                 </div>
                                 <div class="img-wrap text-center">
-                                    <img src="img/core-img/with.png" class="center-block mb-30" alt="">
+                                    <img src=" {% static 'website/img/core-img/with.png'%}" class="center-block mb-30" alt="">
                                 </div>
                                 <ul class="unfeat-list list-unstyled">
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/feat01.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/feat01.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Lower costs</span>
@@ -274,7 +275,7 @@
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/feat02.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/feat02.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Ideal Performance </span>
@@ -283,7 +284,7 @@
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/unfeat05.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/unfeat05.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Time Saving</span>
@@ -292,7 +293,7 @@
                                     </li>
                                     <li>
                                         <div class="icon">
-                                            <img src="img/compare/feat09.png" alt="" class="img-responsive">
+                                            <img src="{% static 'website/img/compare/feat09.png'%}" alt="" class="img-responsive">
                                         </div>
                                         <div class="desc">
                                             <span class="title">Statistics &amp; analytics</span>
@@ -319,7 +320,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="api-box has-shadow">
-                            <img src="img/svg/api1.svg" alt="" class="mb-30">
+                            <img src="{% static 'website/img/svg/api1.svg'%}" alt="" class="mb-30">
                             <h3 class="bold mb-15">Powerful Business APIs</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum sunt ratione minus neque eveniet hic fuga voluptatibus aut inventore, iure similique esse autem deleniti et tempora explicabo recusandae quibusdam?</p>
                             <a href="#" class="btn more-btn pink mt-15">Learn More</a>
@@ -327,7 +328,7 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="api-box v2 has-shadow">
-                            <img src="img/svg/api2.svg" alt="" class="mb-30">
+                            <img src="{% static 'website/img/svg/api2.svg'%}" alt="" class="mb-30">
                             <h3 class="bold mb-15">Platform Documentation</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum sunt ratione minus neque eveniet hic fuga voluptatibus aut inventore, iure similique esse autem deleniti et tempora explicabo recusandae quibusdam?</p>
                             <a href="#" class="btn more-btn pink mt-15">Learn More</a>
@@ -347,7 +348,7 @@
                             <!-- Copywrite -->
                             <div class="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="footer-logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt="logo"> Robostam.</a>
+                                    <a href="#"><img src="{% static 'website/img/core-img/logo.png'%}" alt="logo"> Robostam.</a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad, a eaque officiis eligendi blanditiis odio necessitatibus.</p>
                             </div>
