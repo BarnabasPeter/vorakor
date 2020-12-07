@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,14 +15,13 @@
     <!-- Title -->
     <title>Our Services</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="{% static 'website/img/core-img/favicon.ico'%}">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'website/css/style.css'%}">
 
     <!-- Responsive Stylesheet -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{% static 'website/css/responsive.css'%}">
 
 </head>
 
@@ -34,14 +34,14 @@
     </div>
 
     <!-- ##### Header Area Start ##### -->
-    <header class="header-area fadeInDown" data-wow-delay="0.2s">
+     <header class="header-area fadeInDown" data-wow-delay="0.2s">
         <div class="classy-nav-container light breakpoint-off">
             <div class="container">
                 <!-- Classy Menu -->
                 <nav class="classy-navbar light justify-content-between" id="dreamNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand light" href="#"><img src="img/core-img/logo.png" alt="logo"> Robostam </a>
+                    <a class="nav-brand light" href="#"><img src="{% static 'website/img/core-img/logo.png'%}" alt="logo"> Vorakor </a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler demo">
@@ -59,27 +59,13 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-                                <li><a href="#home">Home</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index-demo-1.html">Home style 1</a></li>
-                                        <li><a href="index-demo-2.html">Home style 2</a></li>
-                                        <li><a href="index-demo-3.html">Home style 3</a></li>
-                                        <li><a href="index-demo-4.html">Home style 4</a></li>
-                                        <li><a href="index-demo-5.html">Home style 5</a></li>
-                                        <li><a href="index-demo-6.html">Home style 6</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="#blog">Blog</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index-blog.html">Blog Posts</a></li>
-                                        <li><a href="index-blog-with-sidebar.html">Sidebar Blog </a></li>
-                                        <li><a href="index-single-blog.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="^$">Home</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog Posts</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="#">Services</a></li>
                             </ul>
 
                             <!-- Button -->
@@ -411,20 +397,21 @@
     </footer>
     <!-- ##### Footer Area End ##### -->
 
-    <!-- ########## All JS ########## -->
-    <!-- jQuery js -->
-    <script src="js/jquery.min.js"></script>
+    <script src="{% static 'website/js/jquery.min.js'%}"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src=" {% static 'website/js/popper.min.js'%}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src=" {% static 'website/js/bootstrap.min.js'%}"></script>
     <!-- All Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src=" {% static 'website/js/plugins.js'%} "></script>
+    <script src=" {% static 'website/js/animated.js'%}"></script>
     <!-- Parallax js -->
-    <script src="js/dzsparallaxer.js"></script>
-    <!-- Active js -->
-    <script src="js/script.js"></script>
+    <script src=" {% static 'website/js/dzsparallaxer.js'%}"></script>
 
+    <script src="{% static 'website/js/jquery.syotimer.min.js'%}"></script>
+
+    <!-- script js -->
+    <script src=" {% static 'website/js/script.js'%}"></script>
 </body>
 
 
