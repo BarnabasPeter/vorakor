@@ -1,0 +1,294 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title> About Us</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'website/img/core-img/favicon.ico'%}">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{% static 'website/css/style.css'%}">
+
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="{% static 'website/css/responsive.css'%}">
+
+</head>
+
+<body class="light-version">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="dream-load"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area fadeInDown" data-wow-delay="0.2s">
+        <div class="classy-nav-container light breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar light justify-content-between" id="dreamNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand light" href="#"><img src="{% static 'website/img/core-img/logo.png'%}" alt="logo"> Vorakor </a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler demo">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                           <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="{% url 'home' %}">Home</a></li>
+                                <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog Posts</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="{% url 'service' %}">Services</a></li>
+                            </ul>
+
+                            <!-- Button -->
+                            <a href="#" class="btn login-btn ml-50">Log in</a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Welcome Area Start ##### -->
+    <div class="breadcumb-area clearfix dzsparallaxer auto-init" data-options='{direction: "normal"}'>
+        <div class="divimage dzsparallaxer--target" style="width: 101%; height: 130%; background-image: url('/static/website/img/bg-img/bg-2.jpg')"></div>
+        <!-- breadcumb content -->
+        <div class="breadcumb-content">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb" class="breadcumb--con text-center">
+                            <h2 class="w-text title wow fadeInUp" data-wow-delay="0.2s">About us</h2>
+                            <ol class="breadcrumb justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Welcome Area End ##### -->
+
+    <!-- ##### About Us Area Start ##### -->
+    <section class="about-us-area ico-about-bg section-padding-100-0 clearfix" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left ">
+                    <div class="welcome-meter">
+                        <img src="{% static 'website/img/core-img/about3.png'%}">
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-6 offset-lg-0 mt-s">
+                    <div class="who-we-contant">
+                        <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <span class="gradient-text blue">We are the experts you exactly need</span>
+                        </div>
+                        <h2 class="fadeInUp" data-wow-delay="0.3s">Who We Are</h2>
+                        <p class="fadeInUp" data-wow-delay="0.4s">We provide high-end information technology, consultancy, mobile app, and software development company that focus on building world class products, providing excellent services using technology to inspire and implement solutions to enable businesses. We maximize our ability to take on any project by creating a diverse team who can bring their experience and perspectives together to solve problems.</p>
+                        <div class="list-wrap align-items-center mb-20">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">Managed Sucre Backups</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">DevOps</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">Advanced Caching</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">24/7 Expert Support</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">Unlimited Applications</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="side-feature-list-item">
+                                        <i class="fa fa-check-square-o check-mark-icon-font" aria-hidden="true"></i>
+                                        <div class="foot-c-info">Optimized Stack</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section-padding-70-70">
+           
+          
+                
+        </div>
+    </section>
+    <!-- ##### About Us Area End ##### -->
+
+    <!-- ##### team Area Start ##### -->
+    <div class="striples-bg">
+        
+      <div class="container">
+                <div class="row align-items-center">
+                    
+                    <div class="col-12 col-lg-6 offset-lg-0">
+                        <div class="who-we-contant">
+                            <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <span class="gradient-text blue">New problems need Creative and unusual Solutions</span>
+                            </div>
+                            <h4 class="fadeInUp" data-wow-delay="0.3s">Development</h4>
+                            <p class="fadeInUp" data-wow-delay="0.4s"> 
+                                We develop products that cut across all platforms, our software development team can bring your projects to life.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
+                        <img class="img-responsive" src="{% static 'website/img/core-img/1.jpg'%}" alt="">
+                    </div>
+                </div>
+            </div>
+ <section class="about-us-area ico-about-bg section-padding-100-0 clearfix" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left ">
+                    <div class="welcome-meter">
+                        <img src="{% static 'website/img/core-img/2.jpg'%}">
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-6 offset-lg-0 mt-s">
+                    <div class="who-we-contant">
+                        <div class="dream-dots text-left fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <span class="gradient-text blue">We are the experts you exactly need</span>
+                        </div>
+                        <h2 class="fadeInUp" data-wow-delay="0.3s">Consultancy</h2>
+                        <p class="fadeInUp" data-wow-delay="0.4s">
+                        Let us help you or your organization with tech related projects and solutions. <br>
+                        we have all the resources and people with the relevant skills to bring your project to life. Ranging from Design, software Development and project management
+                        </p>
+                      
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section-padding-70-70">
+           
+                
+        </div>
+    </section>
+        
+    </div>
+    <!-- ##### team Area End ##### -->
+    
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area bg-img" >
+        <div class="footer-content-area " >
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-12 col-md-5">
+                        <div class="footer-copywrite-info">
+                            <!-- Copywrite -->
+                            <div class="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="footer-logo">
+                                    <a href="#"><img src="{% static 'website/img/core-img/logo.png' %}" alt="logo"> Vorakor Technology.</a>
+                                </div>
+                            </div>
+                            <!-- Social Icon -->
+                          
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <!-- Content Info -->
+                        <div class="contact_info_area d-sm-flex justify-content-between">
+                            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.2s">
+                                <h5>NAVIGATE</h5>
+                          
+                            </div>
+                            <!-- Content Info -->
+                            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">
+                                <h5>PRIVACY & TOS</h5>
+                                
+                            </div>
+                            <!-- Content Info -->
+                            <div class="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
+                                <h5>CONTACT US</h5>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ########## All JS ########## -->
+    <script src="{% static 'website/js/jquery.min.js'%}"></script>
+    <!-- Popper js -->
+    <script src=" {% static 'website/js/popper.min.js'%}"></script>
+    <!-- Bootstrap js -->
+    <script src=" {% static 'website/js/bootstrap.min.js'%}"></script>
+    <!-- All Plugins js -->
+    <script src=" {% static 'website/js/plugins.js'%} "></script>
+    <script src=" {% static 'website/js/animated.js'%}"></script>
+    <!-- Parallax js -->
+    <script src=" {% static 'website/js/dzsparallaxer.js'%}"></script>
+
+    <script src="{% static 'website/js/jquery.syotimer.min.js'%}"></script>
+
+    <!-- script js -->
+    <script src=" {% static 'website/js/script.js'%}"></script>
+
+
+</body>
+
+</html>
