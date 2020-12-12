@@ -28,7 +28,7 @@ SECRET_KEY = '1c@$16lujgj-9e5ovw#!u40py-&6sm1-((b6-%m=#(g7vbp7gp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://vorakor.herokuapp.com/']
 
 
 # Application definition
