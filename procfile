@@ -1,1 +1,1 @@
-web: gunicorn vorakor.wsgi
+web: gunicorn website.wsgi
